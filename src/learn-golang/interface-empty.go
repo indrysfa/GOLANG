@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 /* interface kosong adalah interface yang tidak memiliki deklarasi method satupun, dan membuat otomatis semua tipe data akan menjadi implementasinya */
-func Ups(i int) interface{} {
+func Ups(i int) interface{} { // interface = any
 	if i == 1 {
 		return 1
 	} else if i == 2 {
